@@ -91,15 +91,6 @@ java -cp src Main
 
 ---
 
-## 📸 Sample Screenshots
-
-*(Add screenshots of your Swing GUI here)*
-
-* **Main Dashboard**
-* **Add Courier Form**
-* **View Courier Table**
-
----
 
 ## 🧪 Concepts Practiced
 
@@ -127,8 +118,3 @@ java -cp src Main
 **Prasad S Sannamani**
 Java Developer | Computer Science Student
 
----
-
-I can also **add the screenshots and GIF workflow of your GUI** into the README for a fully professional GitHub presentation if you provide them.
-
-Do you want me to do that next?
