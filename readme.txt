@@ -1,31 +1,92 @@
-Free Download Source Code "Courier Management System"
+📦 Courier Management System – Java Swing Application
 
-FIRST Download
+This project simulates a courier management system using Java Swing with MySQL database connectivity. Users can manage courier bookings, track deliveries, update details, and view records through a user-friendly GUI interface.
 
-1.XAMPP
+✅ Features
 
-2."TEXT EDITOR" NOTEPAD++ OR SUBLIME TEXT 3 / ETC.
+➕ Add Courier – Add a new courier with sender, receiver, package info, date, and status.
+✏️ Update Courier – Update details of an existing courier.
+🚚 Track Courier – Track the courier status using tracking ID.
+❌ Delete Courier – Remove a courier record from the system.
+📜 View All Couriers – Display all courier records in a table format.
+🔍 Filter/Search Couriers – Filter courier records by sender, receiver, or date.
 
-3"cms_db"
+🧠 Data Structures Used
+Data Structure	Use Case
+ArrayList	Store and manage courier records
+HashMap	Quick lookup of couriers by ID or name
+JTable / Swing Components	Display courier records in GUI
+📂 File Structure
+CourierManagementSystem/
+├── Courier.java           # Courier model class
+├── CourierManager.java    # Business logic and data handling
+├── DatabaseConnection.java # MySQL DB connection setup
+└── Main.java              # GUI interface and event handling
 
-4. Download the zip file/ download winrar
+🔧 Prerequisites
 
-5. Extract the file and copy "cms" folder
+Java 8 or higher installed
 
-6.Paste inside root directory/ where you install xammp local disk C: drive D: drive E: paste: (for xampp/htdocs, 
+MySQL server running
 
-7. Open PHPMyAdmin (http://localhost/phpmyadmin)
+IDE (VS Code, IntelliJ, Eclipse) or terminal
 
-8. Create a database with name cms_db
+🚀 Steps to Run
 
-6. Import cms_db.sql file(given inside the zip package in SQL file folder)
+Open the project folder in your IDE.
 
-7.Run the script http://localhost/cms
-**LOGIN DETAILS** 
+Configure MySQL connection in DatabaseConnection.java (update username, password, database name).
 
-Admin
-user: admin@admin.com	
-pass: admin123
+Run the SQL script (courier_db.sql) to create necessary tables.
 
-****** https:1sourcecodr.blogspot.com ******
-Subcribe my You tube Channel **** 1 Source code ****
+Compile and run Main.java.
+
+📸 Sample Run
+
+Add Courier:
+
+Enter sender: John
+Enter receiver: Alice
+Enter package info: Books
+Enter date: 2025-10-01
+Courier added successfully!
+
+
+View All Couriers:
+
+ID: 1, Sender: John, Receiver: Alice, Package: Books, Date: 2025-10-01, Status: Pending
+
+
+Track Courier:
+
+Enter courier ID: 1
+Courier Status: Pending
+
+📄 Concepts Practiced
+
+Object-Oriented Programming (OOP)
+
+Java Swing GUI development
+
+MySQL database integration
+
+CRUD operations (Create, Read, Update, Delete)
+
+Event-driven programming
+
+✅ Improvements You Can Add
+
+GUI enhancements with JavaFX
+
+File or database persistence for history logs
+
+Email/SMS notifications for courier status
+
+Multi-user authentication and role-based access
+
+Reports generation (daily, weekly, monthly)
+
+Author
+
+Prasad S Sannamani
+Java Developer | Computer Science Student
