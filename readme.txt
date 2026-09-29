@@ -1,4 +1,4 @@
-📦 Courier Management System – Java Swing Application
+📦 Courier Management System –- Java Swing Application
 
 This project simulates a courier management system using Java Swing with MySQL database connectivity. Users can manage courier bookings, track deliveries, update details, and view records through a user-friendly GUI interface.
 
